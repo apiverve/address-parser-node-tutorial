@@ -156,6 +156,14 @@ Explore more APIs at [APIVerve](https://apiverve.com/marketplace?utm_source=gith
 - [Reverse Geocode](https://apiverve.com/marketplace/reversegeocode?utm_source=github&utm_medium=tutorial&utm_campaign=address-parser-node-tutorial) - Convert coordinates to addresses
 - [ZIP Code Lookup](https://apiverve.com/marketplace/zipcodeslookup?utm_source=github&utm_medium=tutorial&utm_campaign=address-parser-node-tutorial) - Look up ZIP code details
 
+## Free Plan Note
+
+This tutorial works with the free APIVerve plan. Some APIs may have:
+- **Locked fields**: Premium response fields return `null` on free plans
+- **Ignored parameters**: Some optional parameters require a paid plan
+
+The API response includes a `premium` object when limitations apply. [Upgrade anytime](https://dashboard.apiverve.com/plans) to unlock all features.
+
 ## License
 
 MIT - see [LICENSE](LICENSE)
